@@ -1,0 +1,49 @@
+html{
+    font-size: 15px;
+  }
+  .bienvenidos{
+    background: url("../images/computer-cup-desk-434337.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    }
+  
+    .bg-light {
+      background-color: #FBC52C !important;
+  }
+  .encabezado{
+    background: #FBC52C;
+    }
+  
+  .text-header{
+    text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #DBAB18;
+      font-size:25%
+  }
+  
+  .polaroid{
+    width: 40%;
+    background-color: #333333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    position: center;
+    vertical-align: 50%
+  }
+  
+  .polaroid div{
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+  .aboutme{
+    background: #122940;
+    height: 100vh;
+    text-align: right;
+    font-size: 25px;
+    color: #DBAB18;
+  }

@@ -1,0 +1,26 @@
+html {
+  font-size: 15px; }
+
+.bienvenidos {
+  background: url("../images/ai-close-up-code-160107.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+.bg-light {
+  background-color: #FBC52C !important; }
+
+.encabezado {
+  background: #FBC52C; }
+
+.text-header {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #DBAB18;
+  font-size: 25%; }
+
+/*# sourceMappingURL=style.css.map */
