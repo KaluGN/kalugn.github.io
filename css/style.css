@@ -2,7 +2,7 @@ html {
   font-size: 15px; }
 
 .bienvenidos {
-  background: url("../images/ai-close-up-code-160107.jpg");
+  background: url("../images/computer-cup-desk-434337.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,8 +19,99 @@ html {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  color: #DBAB18;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #6bb8ff;
   font-size: 25%; }
+
+.polaroid {
+  width: 40%;
+  background-color: #333333;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  position: center;
+  vertical-align: 50%; }
+
+.polaroid div {
+  text-align: center;
+  padding: 10px 20px; }
+
+.aboutme {
+  background: #122940;
+  height: 100vh;
+  text-align: right;
+  color: #fbc52c; }
+
+.btn-primary {
+  color: #212529;
+  background-color: #6bb8ff;
+  border-color: #6bb8ff; }
+
+.btn-warning {
+  color: #212529;
+  background-color: #fbc52c;
+  border-color: #fbc52c; }
+
+.proyects h1 {
+  margin: 2rem; }
+
+.fa-css3-alt:before {
+  content: "\f38b";
+  color: #fbc52c; }
+
+.fa-database:before {
+  content: "\f1c0";
+  color: #fbc52c; }
+
+.fa-html5:before {
+  content: "\f13b";
+  color: #fbc52c; }
+
+.fa-js:before {
+  content: "\f3b8";
+  color: #fbc52c; }
+
+.fa-bold:before {
+  content: "\f032";
+  color: #fbc52c; }
+
+.fa-node-js:before {
+  content: "\f3d3";
+  color: #fbc52c; }
+
+.fa-github-square:before {
+  content: "\f092";
+  color: #fbc52c; }
+
+.fa-git:before {
+  content: "\f1d3";
+  color: #fbc52c; }
+
+.figure {
+  width: 50%; }
+
+.text-about {
+  font-display: initial; }
+
+.footer .fa-github-square:before {
+  content: "\f092";
+  color: #6bb8ff; }
+
+.fa-envelope:before {
+  content: "\f0e0";
+  color: #6bb8ff; }
+
+.fa-linkedin:before {
+  content: "\f08c";
+  color: #6bb8ff; }
+
+.fa-whatsapp:before {
+  content: "\f232";
+  color: #6bb8ff; }
+
+.fa-medium:before {
+  content: "\f23a";
+  color: #6bb8ff; }
 
 /*# sourceMappingURL=style.css.map */

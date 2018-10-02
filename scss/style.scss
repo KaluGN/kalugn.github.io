@@ -22,7 +22,7 @@ html{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #DBAB18;
+    color: #6bb8ff;
     font-size:25%
 }
 
@@ -44,6 +44,99 @@ html{
   background: #122940;
   height: 100vh;
   text-align: right;
-  font-size: 25px;
-  color: #DBAB18;
+  
+  color: #fbc52c;
+}
+
+// Botones - ver proyecto y ver demo
+.btn-primary {
+  color: #212529;
+  background-color: #6bb8ff;
+  border-color: #6bb8ff;
+}
+
+.btn-warning {
+  color: #212529;
+  background-color: #fbc52c;
+  border-color: #fbc52c;
+}
+
+.proyects h1{
+  margin: 2rem;
+}
+
+// iconos
+.fa-css3-alt:before {
+  content: "\f38b";
+  color: #fbc52c;
+}
+
+.fa-database:before {
+  content: "\f1c0";
+  color: #fbc52c;
+}
+
+.fa-html5:before {
+  content: "\f13b";
+  color: #fbc52c;
+}
+
+.fa-js:before {
+  content: "\f3b8";
+  color: #fbc52c;
+}
+
+.fa-bold:before {
+  content: "\f032";
+  color: #fbc52c;
+}
+
+.fa-node-js:before {
+  content: "\f3d3";
+  color: #fbc52c;
+}
+
+.fa-github-square:before {
+  content: "\f092";
+  color: #fbc52c;
+}
+
+.fa-git:before {
+  content: "\f1d3";
+  color: #fbc52c;
+}
+
+// foto kalu
+.figure{
+  width: 50%
+}
+
+.text-about{
+  font-display: initial
+}
+
+// íconos contactame
+.footer .fa-github-square:before {
+  content: "\f092";
+  color: #6bb8ff;
+}
+
+.fa-envelope:before {
+  content: "\f0e0";
+  color: #6bb8ff;
+}
+
+.fa-linkedin:before {
+  content: "\f08c";
+  color: #6bb8ff;
+}
+
+.fa-whatsapp:before {
+  content: "\f232";
+  color: #6bb8ff;
+}
+
+.fa-medium:before {
+  content: "\f23a";
+  color: #6bb8ff;
 }
