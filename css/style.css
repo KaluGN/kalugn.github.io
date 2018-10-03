@@ -14,6 +14,9 @@ html {
 .encabezado {
   background: #FBC52C; }
 
+.navbar-brand {
+  font-size: 2rem; }
+
 .text-header {
   text-align: center;
   position: absolute;
@@ -21,8 +24,12 @@ html {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #6bb8ff;
-  font-size: 25%; }
+  color: #6bb8ff; }
+  .text-header h1, .text-header .h1 {
+    font-size: 4rem; }
+  .text-header h3, .text-header .h3 {
+    font-size: 1.75rem;
+    color: #fbc52c; }
 
 .polaroid {
   width: 40%;
@@ -31,17 +38,23 @@ html {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
   position: center;
-  vertical-align: 50%; }
+  vertical-align: 50%;
+  color: #fbc52c; }
 
 .polaroid div {
   text-align: center;
   padding: 10px 20px; }
 
 .aboutme {
-  background: #122940;
+  background: #ffffff;
   height: 100vh;
   text-align: right;
-  color: #fbc52c; }
+  color: #333333; }
+  .aboutme h1, .aboutme h2, .aboutme h3, .aboutme h4, .aboutme h5, .aboutme h6, .aboutme .h1, .aboutme .h2, .aboutme .h3, .aboutme .h4, .aboutme .h5, .aboutme .h6 {
+    margin: 2.5rem; }
+  .aboutme .text p {
+    margin-right: 2rem;
+    font-size: 1.25rem; }
 
 .btn-primary {
   color: #212529;
@@ -53,8 +66,10 @@ html {
   background-color: #fbc52c;
   border-color: #fbc52c; }
 
-.proyects h1 {
-  margin: 2rem; }
+.proyects {
+  padding: 4rem; }
+  .proyects h1 {
+    margin: 2rem; }
 
 .fa-css3-alt:before {
   content: "\f38b";
@@ -94,24 +109,40 @@ html {
 .text-about {
   font-display: initial; }
 
+.user-proyects {
+  margin-top: 5rem; }
+
+.foot {
+  margin-top: 5rem; }
+
+.footer h1 {
+  text-align: right;
+  color: #333333;
+  margin: 2.5rem; }
+  .footer h1 h1, .footer h1 .h1 {
+    font-size: 2.5rem; }
+
 .footer .fa-github-square:before {
   content: "\f092";
-  color: #6bb8ff; }
+  color: #808080; }
 
 .fa-envelope:before {
   content: "\f0e0";
-  color: #6bb8ff; }
+  color: #808080; }
 
 .fa-linkedin:before {
   content: "\f08c";
-  color: #6bb8ff; }
+  color: #808080; }
 
 .fa-whatsapp:before {
   content: "\f232";
-  color: #6bb8ff; }
+  color: #808080; }
 
 .fa-medium:before {
   content: "\f23a";
-  color: #6bb8ff; }
+  color: #808080; }
+
+.logos {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
