@@ -16,31 +16,32 @@
   <!-- Diseño de presentación de proyectos -->
   <!-- <link rel="stylesheet" href="css/imagehover.min.css"> -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127484213-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-127484213-1');
-</script>
-  
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '249541099070342');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=249541099070342&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127484213-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-127484213-1');
+  </script>
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '249541099070342');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=249541099070342&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
 
   <link rel="icon" href="images/whale-tail.png" />
   <title>Hola, soy Kalu!</title>
@@ -83,31 +84,35 @@
   </section>
 
   <section class="aboutme" id="about-me">
-    <div class="row">
-      <div class="col s12 center title">
-        <h1>Acerca de mí</h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="polaroid">
-        <img src="images/kalugn2.jpg" alt="kalugn" style="width:100%">
-        <div class="container">
-          <p>Mientras mi corazón siga latiendo, seguiré cumpliendo metas</p>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 center title">
+          <h3>Acerca de mí</h3>
         </div>
       </div>
+      <div class="row">
+        <div class="polaroid">
+          <img src="images/kalugn2.jpg" alt="kalugn" style="width:100%">
+          <div class="container">
+            <p>Mientras mi corazón siga latiendo, seguiré cumpliendo metas</p>
+          </div>
+        </div>
 
-      <div class="col text">
-        <p> Mi nombre es Katerine Guzmán, soy comunicadora social, especializada en redes sociales y marketing digital.
-          Poseo experiencia en desarrollo web.
-          Mi labor involucra la planificación estratégica de proyectos mediante metodologías ágiles.</p>
-        <p>Entre mis logros laborales, destaca la coordinación y producción de transmisiones en vivo para Facebook
-          (audio,
-          iluminación y escenografía), monitoreo de prensa y realización de reportes. A esto se suma,
-          mi conocimiento de los lenguajes HTML, CSS y Javascript.</p>
-        <p>Finalmente, durante mi participación en equipos multidisciplinarios, he demostrado siempre compromiso,
-          empatía, capacidad de adaptación y resiliencia.</p>
+        
+        <div class="col text">
+          <p> Me conocen como Kalu por la uniòn de mis dos nombres, mi nombre es Katerine Luz Guzmán Nateros. Soy
+            Front-end Developer y comunicadora social, especializada en redes sociales y
+            marketing digital. </p>
+          <p>Soy capaz de gestionar proyectos digitales con el uso de metodologías ágiles. Además he aprendido a manejar lenguajes de desarrollo como HTML, CSS y Javascript</p>
+          <!-- <p>Entre mis logros laborales, destaca la coordinación y producción de transmisiones en vivo para Facebook
+            (audio,
+            iluminación y escenografía), monitoreo de prensa y realización de reportes. A esto se suma,
+            mi conocimiento de los lenguajes HTML, CSS y Javascript.</p> -->
+          <p>Finalmente, durante mi participación en equipos multidisciplinarios, he demostrado siempre compromiso,
+            empatía, capacidad de adaptación y resiliencia.</p>
+        </div>
       </div>
-
+      
       <div id="skills" class="container-fluid skills">
         <h3>Herramientas que domino</h3>
         <div class="container text-center">
@@ -152,7 +157,7 @@
 
   <div class="user-proyects">
     <section class="proyects" id="my-proyects">
-      <h1>Proyectos</h1>
+      <h3>Proyectos</h3>
       <div class="row">
         <div class="col-sm-6">
           <div class="card">
@@ -160,9 +165,10 @@
               <h5 class="card-title">Data Dashboard</h5>
               <p class="card-text">El requerimiento del proyecto fue realizar una aplicación que permita a las Training
                 Managers de Laboratoria revisar el avance de las alumnas. Se utilizó una base de datos local.</p>
-              <a href="https://kalugn.github.io/lim-2018-05-bc-core-am-datadashboard/src" class="btn btn-primary">Ver
+              <a href="https://kalugn.github.io/lim-2018-05-bc-core-am-datadashboard/src" target="_blank" class="btn btn-primary">Ver
                 demo</a>
-              <a href="https://kalugn.github.io/lim-2018-05-bc-core-am-datadashboard/src" class="btn btn-warning">Ir al
+              <a href="https://www.github.com/kalugn/lim-2018-05-bc-core-am-datadashboard" target="_blank" class="btn btn-warning">Ir
+                al
                 código</a>
             </div>
             <img class="img-fluid" src="images/dash-board.png" alt="dashboard">
@@ -176,16 +182,15 @@
                 real,
                 para la construcción
                 del login.</p>
-              <a href="https://github.com/KaluGN/lim-2018-05-bc-core-am-socialnetwork" class="btn btn-primary">Ver
+              <a href="https://kalugn.github.io/lim-2018-05-bc-core-am-socialnetwork/src/" target="_blank" class="btn btn-primary">Ver
                 demo</a>
-              <a href="https://kalugn.github.io/lim-2018-05-bc-core-am-socialnetwork/src/" class="btn btn-warning">Ir
-                al
-                código</a>
+              <a href="https://github.com/KaluGN/lim-2018-05-bc-core-am-socialnetwork" target="_blank" class="btn btn-warning">Ir
+                al código</a>
             </div>
             <img class="img-fluid" src="images/Wari-Que.png" alt="red-social">
           </div>
         </div>
-        <div class="col-sm-6">
+        <!-- <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Extractor de Links</h5>
@@ -198,7 +203,7 @@
             </div>
             <img class="img-fluid" src="images/cmd.png" alt="mark-down">
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
   </div>
@@ -207,7 +212,7 @@
     <section class="footer" id="contact-me">
       <div class="row">
         <div class="col s12 center title">
-          <h1>Contáctame</h1>
+          <h3>Contáctame</h3>
         </div>
       </div>
       <div class="row logos">
