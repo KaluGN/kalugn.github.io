@@ -9,32 +9,11 @@ html{
   height: 100vh;
   }
 
-  .bg-light {
-    background-color: #FBC52C !important;
-}
-.encabezado{
-  background: #FBC52C;
-  }
 
  .navbar-brand{
   font-size: 2rem;
  }
 
-.text-header{
-  text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #6bb8ff;
-    h1, .h1 {
-      font-size: 4rem;
-     } 
-    h3, .h3 {
-    font-size: 1.75rem;
-    color: #fbc52c;
-     }
-}
 
 
 .polaroid{
@@ -92,46 +71,6 @@ html{
 }
 
 
-// iconos
-.fa-css3-alt:before {
-  content: "\f38b";
-  color: #fbc52c;
-}
-
-.fa-database:before {
-  content: "\f1c0";
-  color: #fbc52c;
-}
-
-.fa-html5:before {
-  content: "\f13b";
-  color: #fbc52c;
-}
-
-.fa-js:before {
-  content: "\f3b8";
-  color: #fbc52c;
-}
-
-.fa-bold:before {
-  content: "\f032";
-  color: #fbc52c;
-}
-
-.fa-node-js:before {
-  content: "\f3d3";
-  color: #fbc52c;
-}
-
-.fa-github-square:before {
-  content: "\f092";
-  color: #fbc52c;
-}
-
-.fa-git:before {
-  content: "\f1d3";
-  color: #fbc52c;
-}
 
 // foto kalu
 .figure{
@@ -157,32 +96,4 @@ html{
   h1, .h1 {
     font-size: 2.5rem;
     }
-}
-// íconos contactame
-.footer .fa-github-square:before {
-  content: "\f092";
-  color: #808080;
-}
-
-.fa-envelope:before {
-  content: "\f0e0";
-  color: #808080;
-}
-
-.fa-linkedin:before {
-  content: "\f08c";
-  color: #808080;
-}
-
-.fa-whatsapp:before {
-  content: "\f232";
-  color: #808080;
-}
-
-.fa-medium:before {
-  content: "\f23a";
-  color: #808080;
-}
-.logos{
-  text-align: center;
 }

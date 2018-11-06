@@ -1,21 +1,22 @@
 html {
-  font-size: 15px; }
+  font-size: 15px;
+}
 
 .bienvenidos {
   background: url("../images/computer-cup-desk-434337.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh; }
+  height: 100vh;
+}
 
 .bg-light {
-  background-color: #FBC52C !important; }
+  background-color: #fbc52c !important;
+}
 
-.encabezado {
-  background: #FBC52C; }
-
-.navbar-brand {
-  font-size: 2rem; }
+/* .encabezado{
+  background: #FBC52C;
+  } */
 
 .text-header {
   text-align: center;
@@ -23,126 +24,85 @@ html {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  color: #6bb8ff; }
-  .text-header h1, .text-header .h1 {
-    font-size: 4rem; }
-  .text-header h3, .text-header .h3 {
-    font-size: 1.75rem;
-    color: #fbc52c; }
+  transform: translate(-50%, -50%);
+  color: #6bb8ff;
+}
+.text-header h1,
+.text-header .h1 {
+  font-size: 4rem;
+}
+.text-header h3,
+.text-header .h3 {
+  font-size: 1.75rem;
+  color: #fbc52c;
+}
 
-.polaroid {
-  width: 40%;
-  background-color: #333333;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-  position: center;
-  vertical-align: 50%;
-  color: #fbc52c; }
-
-.polaroid div {
-  text-align: center;
-  padding: 10px 20px; }
-
-.aboutme {
-  background: #ffffff;
-  height: 100vh;
-  text-align: right;
-  color: #333333; }
-  .aboutme h1, .aboutme h2, .aboutme h3, .aboutme h4, .aboutme h5, .aboutme h6, .aboutme .h1, .aboutme .h2, .aboutme .h3, .aboutme .h4, .aboutme .h5, .aboutme .h6 {
-    margin: 2.5rem; }
-  .aboutme .text p {
-    margin-right: 2rem;
-    font-size: 1.25rem; }
-
-.btn-primary {
-  color: #212529;
-  background-color: #6bb8ff;
-  border-color: #6bb8ff; }
-
-.btn-warning {
-  color: #212529;
-  background-color: #fbc52c;
-  border-color: #fbc52c; }
-
-.proyects {
-  padding: 4rem; }
-  .proyects h1 {
-    margin: 2rem; }
-
+/* // iconos */
 .fa-css3-alt:before {
   content: "\f38b";
-  color: #fbc52c; }
+  color: #fbc52c;
+}
 
 .fa-database:before {
   content: "\f1c0";
-  color: #fbc52c; }
+  color: #fbc52c;
+}
 
 .fa-html5:before {
   content: "\f13b";
-  color: #fbc52c; }
+  color: #fbc52c;
+}
 
 .fa-js:before {
   content: "\f3b8";
-  color: #fbc52c; }
+  color: #fbc52c;
+}
 
 .fa-bold:before {
   content: "\f032";
-  color: #fbc52c; }
+  color: #fbc52c;
+}
 
 .fa-node-js:before {
   content: "\f3d3";
-  color: #fbc52c; }
+  color: #fbc52c;
+}
 
 .fa-github-square:before {
   content: "\f092";
-  color: #fbc52c; }
+  color: #fbc52c;
+}
 
 .fa-git:before {
   content: "\f1d3";
-  color: #fbc52c; }
+  color: #fbc52c;
+}
 
-.figure {
-  width: 50%; }
-
-.text-about {
-  font-display: initial; }
-
-.user-proyects {
-  margin-top: 5rem; }
-
-.foot {
-  margin-top: 5rem; }
-
-.footer h1 {
-  text-align: right;
-  color: #333333;
-  margin: 2.5rem; }
-  .footer h1 h1, .footer h1 .h1 {
-    font-size: 2.5rem; }
-
+/* // íconos contactame */
 .footer .fa-github-square:before {
   content: "\f092";
-  color: #808080; }
+  color: #808080;
+}
 
 .fa-envelope:before {
   content: "\f0e0";
-  color: #808080; }
+  color: #808080;
+}
 
 .fa-linkedin:before {
   content: "\f08c";
-  color: #808080; }
+  color: #808080;
+}
 
 .fa-whatsapp:before {
   content: "\f232";
-  color: #808080; }
+  color: #808080;
+}
 
 .fa-medium:before {
   content: "\f23a";
-  color: #808080; }
-
-.logos {
-  text-align: center; }
-
-/*# sourceMappingURL=style.css.map */
+  color: #808080;
+}
+.logos{
+  text-align: center;
+}
